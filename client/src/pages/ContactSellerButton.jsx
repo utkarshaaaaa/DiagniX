@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import axios from '../config/axios';
-import '../Design/contactSellerButton.css';
+import '../Design/ContactSellerButton.css';
 
 const ContactSellerButton = ({ productId: propProductId, sellerId: propSellerId }) => {
   const navigate = useNavigate();

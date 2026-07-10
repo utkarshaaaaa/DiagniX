@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from '../config/axios';
-import '../Design/ListProduct.css';
+import '../Design/listProduct.css';
 
 const ListProduct = () => {
   const navigate = useNavigate();

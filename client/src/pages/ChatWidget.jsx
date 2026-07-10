@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from '../config/axios';
-import '../Design/chatWidget.css';
+import '../Design/ChatWidget.css';
 
 const ChatWidget = () => {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import axios from '../config/axios';
-import '../Design/chatConversation.css';
+import '../Design/ChatConversation.css';
 
 const ChatConversation = () => {
   const { chatId } = useParams();
